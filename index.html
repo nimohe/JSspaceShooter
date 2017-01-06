@@ -1,40 +1,42 @@
-
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
-    <title>www.jsdn.pl js.n00b - SpaceShooter</title>
-    <script type="text/javascript" src="http://greeboro.linuxpl.eu/apps/Phaser/phaser.min.js"></script>
-    <script type="text/javascript" src="states/init.js"></script>
-    <script type="text/javascript" src="helpers.js"></script>
-    <script type="text/javascript" src="actors/background.js"></script>
-    <script type="text/javascript" src="actors/player.js"></script>
-    <script type="text/javascript" src="actors/bigAsteroids.js"></script>
-    <script type="text/javascript" src="actors/smallAsteroids.js"></script>
-    <script type="text/javascript" src="actors/turret.js"></script>
-    <script type="text/javascript" src="actors/flyingEnemy.js"></script>
-    <script type="text/javascript" src="actors/enemyShip.js"></script>
-    <script type="text/javascript" src="actors/weapons.js"></script>
-    <script type="text/javascript" src="actors/powerUp.js"></script>
-    <script type="text/javascript" src="actors/explosion.js"></script>
-    <script type="text/javascript" src="states/welcome.js"></script>
-    <script type="text/javascript" src="states/gameOver.js"></script>
-    <script type="text/javascript" src="states/main.js"></script>
-    <script type="text/javascript" src="game.js"></script>
+    <title>SpaceShooter</title>
+    <script type="text/javascript" src="js/phaser.min.js"></script>
+    <script type="text/javascript" src="js/state/app.js"></script>
+    <script type="text/javascript" src="js/state/boot.js"></script>
+    <script type="text/javascript" src="js/state/preloader.js"></script>
+    <script type="text/javascript" src="js/state/menu.js"></script>
+    <script type="text/javascript" src="js/ui/background.js"></script>
+    <script type="text/javascript" src="js/state/game.js"></script>
+    <script type="text/javascript" src="js/ui/player.js"></script>
+    <script type="text/javascript" src="js/ui/weapon.js"></script>
+    <script type="text/javascript" src="js/ui/bigAsteroid.js"></script>
+    <script type="text/javascript" src="js/ui/smallAsteroid.js"></script>
+    <script type="text/javascript" src="js/state/gameOver.js"></script>
+    <script type="text/javascript" src="js/ui/explosion.js"></script>
+    <script type="text/javascript" src="js/ui/InfoPanel.js"></script>
+    <script type="text/javascript" src="js/ui/mobileInput.js"></script>
+    <script type="text/javascript" src="js/ui/powerUp.js"></script>
+    <script type="text/javascript" src="js/ui/flyEnemy.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
     <style type="text/css">
-      body{
-        padding:0px;
-        margin:0px;
+    body {
+        padding: 0px;
+        margin: 0px;
         background: #000;
-      }
-
-      #game {
+    }
+    
+    #game {
         background: #000;
-      }
+    }
     </style>
-  </head>
-  <body>
-  <div id="game"> </div>
-  </body>
+</head>
+
+<body>
+    <div id="game"> </div>
+</body>
+
 </html>
