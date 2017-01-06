@@ -28,6 +28,7 @@ player.init();
 
 ###
 
-. [play online](https://nimohe.github.io/JSspaceShooter/)
+. [web online](https://nimohe.github.io/JSspaceShooter/)
 
-. scan QR:[QR code](https://nimohe.github.io/JSspaceShooter/QR.png)
+. play game on mobile
+>![QR code](https://nimohe.github.io/JSspaceShooter/QR.png)
